@@ -1,13 +1,17 @@
 <template>
-  <div id="app" class="bg-blue-400">
-    <img alt="Vue logo" src="./assets/logo.png" />
-  </div>
+  <main>
+    <px-header />
+    <px-assets-table />
+  </main>
 </template>
 
 <script>
+import PxHeader from "@/components/PxHeader";
+import PxAssetsTable from "@/components/PxAssetsTable";
+
 export default {
   name: "app",
-  components: {}
+  components: { PxHeader, PxAssetsTable }
 };
 </script>
 
