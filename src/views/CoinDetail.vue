@@ -76,7 +76,7 @@
 
       <line-chart
         class="my-10"
-        :colors="['orange']"
+        :colors="['green']"
         :min="min"
         :max="max"
         :data="history.map(h => [h.date, parseFloat(h.priceUsd).toFixed(2)])"
